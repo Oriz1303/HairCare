@@ -3,8 +3,8 @@
 - git commit -m "add file"(note): từ stage area sang git local: . file ở stage area sẽ mất
 - git checkout : để di chuyển giữa các commit: 
 - git push origin master: đẩy lên remote: 
-- git clone: tạo Kết nối với remote: 1 bản sao
+- git clone https.....: tạo Kết nối với remote: 1 bản sao
 - git pull origin master: kéo dữ liệu về từ another dev
 git config --global user.name "Oriz"
 git config --global user.email "oriz1303@gmail.com"
-git config --global credential.helper store
+git config --global credential.helper store / lan dau ddeer luu tru
