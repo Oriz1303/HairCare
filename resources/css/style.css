@@ -1,9 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,400;0,600;1,400&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
-li:hover {
-    border-bottom: 3px white solid;
+    box-sizing: border-box;
 }
 
+ /* ---------------------------------Nav Bar------------------------------------------- */
+
+#logo {
+    font-family: 'Noto Serif Display', serif;
+    margin: 0px;
+}
+
+/* li:hover {
+    border-bottom: 3px white solid;
+} */
+
 #search {
-    width: 50px;
+    border: none;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.nav__bar li a:hover {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+/* -------------------------------------MAIN----------------------------------------- */
+
+.firstNews {
+    
+}
+
+/* MOBILE */
+@media only screen and (max-width:46.1875em) {
+    
 }
