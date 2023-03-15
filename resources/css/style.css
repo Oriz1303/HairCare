@@ -1,0 +1,9 @@
+
+
+li:hover {
+    border-bottom: 3px white solid;
+}
+
+#search {
+    width: 50px;
+}
